@@ -5,15 +5,15 @@
 ```python
 # Send free message to email, debug OFF
 >>> from sendtomail import *
->>> server.send("uk", "he1zen@null.net", "hello, its a test message!")
+>>> server.send("ua", "he1zen@null.net", "hello, its a test message!")
 b'200'
 >>>
 
 # Send free message to email, debug ON
 >>> from sendtomail import *
->>> server.send("uk", "he1zen@null.net", "hello, its a test message!")
+>>> server.send("ua", "he1zen@null.net", "hello, its a test message!")
 [3%] Debug mode ON
-[7%] Region uk
+[7%] Region ua
 [11%] Starting to get URL
 [20%] Getting json from URL
 [40%] URL json data decode
