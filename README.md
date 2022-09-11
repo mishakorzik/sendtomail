@@ -36,7 +36,7 @@ SMTP regions: de, uk, us, it, es, tw, cn, ar, au, fr, kr, ca, in, hk, th, sg, vn
 ## Status codes
 200 - Succesfully send
 400 - bad options
-429 - Too Many emails sended
+429 - Try in 1 day or choose another region
 500 - Internal Server Error
 503 - Service Unavailable
 
