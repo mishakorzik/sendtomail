@@ -24,11 +24,11 @@ b'200'
 b'200'
 >>>
 
-# Regions list
+# Servers list
 >>> from sendtomail import *
 >>> regions = server.regions()
 >>> print(regions)
-SMTP regions: de, uk, us, it, es, tw, cn, ar, au, fr, kr, ca, in, hk, th, sg, vn, ua, ru
+SMTP regions: tr, ru, ua, us, uk, de, fr, it
 >>>
 
 ```
@@ -40,24 +40,17 @@ SMTP regions: de, uk, us, it, es, tw, cn, ar, au, fr, kr, ca, in, hk, th, sg, vn
 429 - Try in 1 day or choose another region
 500 - Internal Server Error
 503 - Service Unavailable
+504 - Try another region
 
-## Region Country
+## Servers Country
+tr - turkey
+ru - russia
+ua - ukraine
 us - united states
 uk - united kingdom
-ar - argentina
-au - australia
-vn - vietnam
-kr - korea
-ca - canada
-in - india
-fr - france
-th - tailand
-sg - singapore
 de - germany
-es - spain
-cn - chine
-tw - taiwan
-it - italy
-ua - ukraine
-ru - russia
+fr - france
+it - italia
 ```
+
+**I also want to inform you that it is possible to send letters from one region to another, for example from Ukraine to USA**
