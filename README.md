@@ -11,6 +11,7 @@ b'200'
 
 # Send free message to email, debug ON
 >>> from sendtomail import *
+>>> server.debug("on")
 >>> server.send("ua", "he1zen@null.net", "hello, its a test message!")
 [3%] Debug mode ON
 [7%] Region ua
