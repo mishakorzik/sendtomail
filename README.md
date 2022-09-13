@@ -21,7 +21,7 @@ b'200'
 [60%] Server IP 18.189.106.45
 [80%] Server connected!
 [100%] Data send to server
-b'200'
+'200'
 >>>
 
 # Servers list
@@ -29,6 +29,12 @@ b'200'
 >>> regions = server.regions()
 >>> print(regions)
 SMTP regions: tr, ru, ua, us, uk, de, fr, it
+>>>
+
+# Get Free SMTP, POP3, IMAP email
+>>> from sendtomail import *
+>>> server.mail()
+{'google-mail': 'qcp9ex.iqu0@gmail.com', 'google-pass': 'dmxsdxqgvlcypitf'}
 >>>
 
 ```
