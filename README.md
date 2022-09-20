@@ -61,6 +61,7 @@ SMTP regions: tr, ru, ua, us, uk, de, fr, it
 ## Other codes
 valid   - mailbox exists
 invalid - mailbox does not exist
+timeout - mailbox is unknown
 
 ## Servers Country
 tr - turkey  - (Stambul)
