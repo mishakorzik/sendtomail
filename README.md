@@ -1,6 +1,6 @@
 ## Usage
 
-#### Send free message to email, without your email!
+#### Send free message to email, without your email! It is strictly forbidden to send spam or threats or 18+ 
 
 **I also want to inform you that it is possible to send letters from one region to another, for example from Ukraine to USA**
 
@@ -30,7 +30,7 @@
 >>> from sendtomail import *
 >>> regions = server.regions()
 >>> print(regions)
-SMTP regions: tr, ru, ua, us, uk, de, fr, it
+SMTP regions: us, uk, de, ua, ru, tr
 >>>
 
 # Get Free SMTP, POP3, IMAP email
@@ -64,12 +64,12 @@ invalid - mailbox does not exist
 timeout - mailbox is unknown
 
 ## Servers Country
-tr - turkey  - (Stambul)
-ru - russia  - (Saint Peterburg)
-ua - ukraine - (Ivano Frankivsk)
-us - america - (New York)
-uk - england - (London)
-de - germany - (Frankfurt)
-fr - france  - (Paris)
-it - italia  - (Rome)
+us - america - (Chicago)         -  fast  - well works
+uk - england - (London)          -  fast  - well works
+de - germany - (Frankfurt)       - medium - well works
+ua - ukraine - (Ivano Frankivsk) - medium - well works
+ru - russia  - (Saint Peterburg) -  slow  - often problems
+tr - turkey  - (Stambul)         -  slow  - often problems
 ```
+
+**there are logs on the server for security purposes**
