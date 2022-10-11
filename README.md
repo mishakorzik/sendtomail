@@ -1,22 +1,20 @@
 ## Usage
 
-#### Send free message to email, without your email! It is strictly forbidden to send spam or threats or 18+ 
-
-**I also want to inform you that it is possible to send letters from one region to another, for example from Ukraine to USA**
+#### Send free message to email, without your email! It is strictly forbidden to send spam or threats or 18+
 
 ```python
 # Send free message to email, debug OFF
 >>> from sendtomail import *
->>> server.send("ua", "he1zen@null.net", "hello, its a test message!")
+>>> server.send("gmail.com", "he1zen@null.net", "hello, its a test message!")
 '200'
 >>>
 
 # Send free message to email, debug ON
 >>> from sendtomail import *
 >>> server.debug("on")
->>> server.send("ua", "he1zen@null.net", "hello, its a test message!")
+>>> server.send("gmail.com", "he1zen@null.net", "hello, its a test message!")
 [3%] Debug mode ON
-[7%] Region ua
+[7%] Server gmail.com
 [11%] Starting to get URL
 [20%] Getting json from URL
 [40%] URL json data decode
@@ -30,7 +28,7 @@
 >>> from sendtomail import *
 >>> regions = server.regions()
 >>> print(regions)
-SMTP regions: us, uk, de, ua, ru, tr
+SMTP servers: gmail.com, outlook.com, yandex.com, mail.ru
 >>>
 
 # Get Free SMTP, POP3, IMAP email
@@ -50,26 +48,24 @@ SMTP regions: us, uk, de, ua, ru, tr
 ```
 ## Status codes
 200 - Succesfully send
-400 - Bad options
+400 - Failed to send, choose another server
 403 - Email protected
 404 - Email not found
-429 - Server error, choose another region
+429 - Server error, choose another server
 500 - Internal Server Error
 503 - Service Unavailable
-504 - Try another region
+504 - Try another server
 
 ## Other codes
 valid   - mailbox exists
 invalid - mailbox does not exist
 timeout - mailbox is unknown
 
-## Servers Country
-us - america - (Chicago)         -  fast  - well works
-ua - ukraine - (Ivano Frankivsk) -  fast  - well works
-ru - russia  - (Saint Peterburg) -  fast  - well works
-uk - england - (London)          - medium - often problems
-de - germany - (Frankfurt)       - medium - often problems
-tr - turkey  - (Stambul)         -  slow  - often problems
+## Services
+gmail.com   - 50-70ms
+outlook.com - 60-80ms
+yandex.com  - 80-95ms
+mail.ru     - 70-90ms
 ```
 
 **there are logs on the server for security purposes**
