@@ -2,6 +2,8 @@
 
 #### Send free message to email, without your email! It is strictly forbidden to send spam or threats or 18+
 
+## For linux
+
 ```python
 # Send free message to email, debug OFF
 >>> from sendtomail import *
@@ -44,6 +46,17 @@ SMTP servers: gmail.com, outlook.com, yandex.com, mail.ru
 >>>
 
 ```
+
+## For Windows
+
+```
+download file sendtomail.exe 
+from https://github.com/mishakorzik/sendtomail
+
+and start file!
+```
+
+## Other
 
 ```
 ## Status codes
