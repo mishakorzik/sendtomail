@@ -65,10 +65,10 @@ timeout - mailbox is unknown
 
 ## Servers Country
 us - america - (Chicago)         -  fast  - well works
-uk - england - (London)          -  fast  - well works
-de - germany - (Frankfurt)       - medium - well works
-ua - ukraine - (Ivano Frankivsk) - medium - well works
-ru - russia  - (Saint Peterburg) -  slow  - often problems
+ua - ukraine - (Ivano Frankivsk) -  fast  - well works
+ru - russia  - (Saint Peterburg) -  fast  - well works
+uk - england - (London)          - medium - often problems
+de - germany - (Frankfurt)       - medium - often problems
 tr - turkey  - (Stambul)         -  slow  - often problems
 ```
 
