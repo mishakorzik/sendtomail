@@ -56,7 +56,7 @@ from https://github.com/mishakorzik/sendtomail
 and start file!
 ```
 
-## Other
+## Tool information
 
 ```
 ## Status codes
