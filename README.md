@@ -62,10 +62,10 @@ invalid - mailbox does not exist
 timeout - mailbox is unknown
 
 ## Services
-gmail.com   - 50-70ms
-outlook.com - 60-80ms
-yandex.com  - 80-95ms
-mail.ru     - 70-90ms
+gmail.com   - 50-70ms - recommend
+outlook.com - 60-80ms - not recommend
+mail.ru     - 70-90ms - not recommend
+yandex.com  - 80-95ms - not recommend
 ```
 
 **there are logs on the server for security purposes**
