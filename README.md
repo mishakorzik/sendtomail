@@ -49,12 +49,8 @@ SMTP servers: gmail.com, outlook.com, yandex.com, mail.ru
 
 ## For Windows
 
-```
-download file sendtomail.exe 
-from https://github.com/mishakorzik/sendtomail
-
+download file <a href='https://drive.google.com/file/d/1njyyb_LJHnQznPHg9wn1NJ0s3oIgWwHv/view?usp=sharing'>sendtomail.exe</a>
 and start file!
-```
 
 ## Tool information
 
