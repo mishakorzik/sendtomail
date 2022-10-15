@@ -58,11 +58,11 @@ and start file, im recommend select gmail.com server.
 ## Status codes
 200 - Succesfully send
 400 - Failed to send, choose another server
-403 - Email protected
-404 - Email not found
+403 - Email protected or secured
+404 - Email not found, try another email
 429 - Server error, choose another server
-500 - Internal Server Error
-503 - Service Unavailable
+500 - Internal Server Error, try again later
+503 - Service Unavailable, try again later
 504 - Try another server
 
 ## Other codes
